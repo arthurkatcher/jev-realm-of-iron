@@ -1,0 +1,1956 @@
+{
+ "worker": {
+  "race": "human",
+  "file": "worker.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/tools/smash/background/axe.png",
+    "zPos": 9,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/shoes/male/brown.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/pants/male/brown.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hair/messy1/male/dark_brown.png",
+    "zPos": 120
+   },
+   {
+    "src": "spritesheets/tools/smash/universal/male/axe.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/tools/smash/foreground/axe.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": false,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": false
+  },
+  "verified": true
+ },
+ "footman": {
+  "race": "human",
+  "file": "footman.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/jacket/tabard/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/sword/arming/attack_slash/bg/steel.png",
+    "zPos": 8,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/universal/bg/steel.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/armour/plate/male/steel.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/armour/plate/male/steel.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/chainmail/male/gray.png",
+    "zPos": 50
+   },
+   {
+    "src": "spritesheets/torso/jacket/tabard/male/blue.png",
+    "zPos": 55
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/steel.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/arms/bracers/male/steel.png",
+    "zPos": 70
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/shield/kite/male/kite_gray_blue.png",
+    "zPos": 110
+   },
+   {
+    "src": "spritesheets/hat/helmet/barbuta/male/steel.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/universal/fg/steel.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/attack_slash/fg/steel.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "archer": {
+  "race": "human",
+  "file": "archer.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/ranged/bow/normal/universal/background/dark.png",
+    "zPos": -1
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/normal/walk/background/dark.png",
+    "zPos": -1,
+    "custom_animation": "walk_128"
+   },
+   {
+    "src": "spritesheets/quiver/quiver.png",
+    "zPos": 8
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/male/walnut.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/feet/boots/male/brown.png",
+    "zPos": 25
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/torso/armour/leather/male/brown.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hair/plain/male/light_brown.png",
+    "zPos": 120
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/normal/universal/foreground/dark.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/normal/walk/foreground/dark.png",
+    "zPos": 141,
+    "custom_animation": "walk_128"
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/arrow/arrow.png",
+    "zPos": 150
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "knight": {
+  "race": "human",
+  "file": "knight.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "cape/solid/female/blue",
+  "layers": [
+   {
+    "src": "spritesheets/cape/solid_behind/blue.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/weapon/polearm/spear/background/steel.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/armour/plate/male/steel.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/armour/plate/male/steel.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/armour/plate/male/steel.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/arms/armour/plate/male/steel.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/steel.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/cape/solid/female/blue.png",
+    "zPos": 85
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/shield/kite/male/kite_gray.png",
+    "zPos": 110
+   },
+   {
+    "src": "spritesheets/hat/helmet/greathelm/male/steel.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/polearm/spear/foreground/steel.png",
+    "zPos": 140
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "ranger": {
+  "race": "human",
+  "file": "ranger.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/ranged/bow/recurve/universal/background/dark.png",
+    "zPos": -1
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/recurve/walk/background/dark.png",
+    "zPos": -1,
+    "custom_animation": "walk_128"
+   },
+   {
+    "src": "spritesheets/cape/tattered_behind/forest.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/quiver/quiver.png",
+    "zPos": 8
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/male/walnut.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/feet/boots/male/black.png",
+    "zPos": 25
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/torso/armour/leather/male/forest.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/cape/tattered/female/forest.png",
+    "zPos": 85
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hat/cloth/hood/adult/forest.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/recurve/universal/foreground/dark.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/recurve/walk/foreground/dark.png",
+    "zPos": 141,
+    "custom_animation": "walk_128"
+   },
+   {
+    "src": "spritesheets/weapon/ranged/bow/arrow/arrow.png",
+    "zPos": 150
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "mage": {
+  "race": "human",
+  "file": "mage.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue + legs/skirts/plain/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/magic/simple/background/simple.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/shoes/male/black.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/skirts/plain/male/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/beards/beard/basic/white.png",
+    "zPos": 110
+   },
+   {
+    "src": "spritesheets/hat/magic/wizard/base/adult/blue.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/magic/simple/foreground/simple.png",
+    "zPos": 140
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": false,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "peon": {
+  "race": "orc",
+  "file": "peon.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/sleeveless/sleeveless/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/tools/smash/background/pickaxe.png",
+    "zPos": 9,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/body/bodies/male/green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/sandals/male/brown.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/pants/male/brown.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/sleeveless/sleeveless/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/tools/smash/universal/male/pickaxe.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/tools/smash/foreground/pickaxe.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": false,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": false
+  },
+  "verified": true
+ },
+ "grunt": {
+  "race": "orc",
+  "file": "grunt.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "legs/pants/muscular/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/attack_slash/behind/waraxe.png",
+    "zPos": 8,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/behind/waraxe.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/muscular/green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/muscular/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/feet/boots/male/black.png",
+    "zPos": 25
+   },
+   {
+    "src": "spritesheets/shoulders/leather/male/brown.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/bauldron/male/brown.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/arms/bracers/male/iron.png",
+    "zPos": 70
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hat/helmet/barbarian/adult/iron.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/waraxe.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/attack_slash/waraxe.png",
+    "zPos": 150,
+    "custom_animation": "slash_oversize"
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": false,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "axethrower": {
+  "race": "orc",
+  "file": "axethrower.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "legs/pants/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/polearm/spear/background/iron.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/bright_green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/male/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/bauldron/male/leather.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/arms/bracers/male/bronze.png",
+    "zPos": 70
+   },
+   {
+    "src": "spritesheets/head/heads/troll/adult/bright_green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/weapon/polearm/spear/foreground/iron.png",
+    "zPos": 140
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": true,
+   "walk": true,
+   "slash": false,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "ogre": {
+  "race": "orc",
+  "file": "ogre.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "legs/pants/muscular/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/blunt/mace/universal_behind/mace.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/attack_slash/behind/mace.png",
+    "zPos": 9,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/body/bodies/muscular/olive.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/muscular/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/feet/boots/male/walnut.png",
+    "zPos": 25
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/olive.png",
+    "zPos": 100,
+    "head_offset_x": [
+     -5,
+     3,
+     -5,
+     -3
+    ]
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/olive.png",
+    "zPos": 101,
+    "head_offset_x": [
+     5,
+     -3,
+     5,
+     3
+    ]
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/mace.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/attack_slash/mace.png",
+    "zPos": 150,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/iron.png",
+    "zPos": 65
+   }
+  ],
+  "verified": true,
+  "postprocess": "the orc head layer drawn twice, shifted apart per facing (two-headed ogre)"
+ },
+ "berserker": {
+  "race": "orc",
+  "file": "berserker.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "legs/pants/muscular/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/attack_slash/behind/waraxe.png",
+    "zPos": 8,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/behind/waraxe.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/muscular/dark_green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/muscular/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/shoulders/leather/male/black.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/bauldron/male/charcoal.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/arms/bracers/male/iron.png",
+    "zPos": 70
+   },
+   {
+    "src": "spritesheets/head/heads/troll/adult/dark_green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/waraxe.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/blunt/waraxe/attack_slash/waraxe.png",
+    "zPos": 150,
+    "custom_animation": "slash_oversize"
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": false,
+   "thrust": false,
+   "walk": true,
+   "slash": true,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "shaman": {
+  "race": "orc",
+  "file": "shaman.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/magic/simple/background/simple.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/sandals/male/black.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/skirts/plain/male/charcoal.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hat/cloth/hood/adult/charcoal.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/magic/simple/foreground/simple.png",
+    "zPos": 140
+   }
+  ],
+  "animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": true,
+   "shoot": true,
+   "hurt": true
+  },
+  "weapon_animations": {
+   "spellcast": true,
+   "thrust": true,
+   "walk": true,
+   "slash": false,
+   "shoot": false,
+   "hurt": true
+  },
+  "verified": true
+ },
+ "paladin": {
+  "race": "human",
+  "file": "paladin.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/jacket/tabard/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/cape/solid_behind/white.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/weapon/polearm/spear/background/gold.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/armour/plate/male/gold.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/armour/plate/male/gold.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/armour/plate/male/gold.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/arms/armour/plate/male/gold.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/torso/jacket/tabard/male/blue.png",
+    "zPos": 62
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/gold.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/cape/solid/female/white.png",
+    "zPos": 85
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/shield/crusader/bg/crusader.png",
+    "zPos": 7
+   },
+   {
+    "src": "spritesheets/shield/crusader/fg/male/crusader.png",
+    "zPos": 110
+   },
+   {
+    "src": "spritesheets/hat/helmet/armet/adult/gold.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/polearm/spear/foreground/gold.png",
+    "zPos": 140
+   }
+  ],
+  "verified": true
+ },
+ "dwarves": {
+  "race": "human",
+  "file": "dwarves.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/longsleeve/longsleeve/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/tools/smash/background/hammer.png",
+    "zPos": 9,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/body/bodies/male/light.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/boots/male/brown.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/pants/male/brown.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/longsleeve/longsleeve/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/torso/armour/leather/male/brown.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/head/heads/human/male/light.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/beards/beard/medium/ginger.png",
+    "zPos": 135
+   },
+   {
+    "src": "spritesheets/hat/helmet/nasal/adult/steel.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/tools/smash/universal/male/hammer.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/tools/smash/foreground/hammer.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "verified": true,
+  "postprocess": "every cell squashed vertically to 78% about the feet line (stocky dwarf)"
+ },
+ "death_knight": {
+  "race": "orc",
+  "file": "death_knight.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "cape/tattered/female/blue",
+  "layers": [
+   {
+    "src": "spritesheets/cape/tattered_behind/blue.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/weapon/magic/simple/background/simple.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/skeleton/universal/skeleton.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/armour/plate/male/iron.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/armour/plate/male/iron.png",
+    "zPos": 60
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/iron.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/cape/tattered/female/blue.png",
+    "zPos": 85
+   },
+   {
+    "src": "spritesheets/head/heads/skeleton/adult/skeleton.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/hat/cloth/hood/adult/black.png",
+    "zPos": 130
+   },
+   {
+    "src": "spritesheets/weapon/magic/simple/foreground/simple.png",
+    "zPos": 140
+   }
+  ],
+  "verified": true
+ },
+ "skeleton": {
+  "race": "orc",
+  "file": "skeleton.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "cape/tattered/female/blue",
+  "layers": [
+   {
+    "src": "spritesheets/cape/tattered_behind/blue.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/attack_slash/bg/iron.png",
+    "zPos": 8,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/universal/bg/iron.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/body/bodies/skeleton/universal/skeleton.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/cape/tattered/female/blue.png",
+    "zPos": 85
+   },
+   {
+    "src": "spritesheets/head/heads/skeleton/adult/skeleton.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/universal/fg/iron.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/sword/arming/attack_slash/fg/iron.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "verified": true
+ },
+ "sappers": {
+  "race": "orc",
+  "file": "sappers.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "torso/clothes/sleeveless/sleeveless/male/blue",
+  "layers": [
+   {
+    "src": "spritesheets/tools/smash/background/pickaxe.png",
+    "zPos": 9,
+    "custom_animation": "slash_128"
+   },
+   {
+    "src": "spritesheets/body/bodies/male/bright_green.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/feet/sandals/male/brown.png",
+    "zPos": 15
+   },
+   {
+    "src": "spritesheets/legs/pants/male/brown.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/torso/clothes/sleeveless/sleeveless/male/blue.png",
+    "zPos": 35
+   },
+   {
+    "src": "spritesheets/head/heads/goblin/adult/bright_green.png",
+    "zPos": 100
+   },
+   {
+    "src": "spritesheets/tools/smash/universal/male/pickaxe.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/tools/smash/foreground/pickaxe.png",
+    "zPos": 150,
+    "custom_animation": "slash_128"
+   }
+  ],
+  "verified": true,
+  "postprocess": "every cell squashed vertically to 86% about the feet line"
+ },
+ "ogre_mage": {
+  "race": "orc",
+  "file": "ogre_mage.png",
+  "size": [
+   832,
+   1344
+  ],
+  "frame": 64,
+  "columns": 13,
+  "rows": 21,
+  "row_layout": {
+   "spellcast": [
+    0,
+    3,
+    7
+   ],
+   "thrust": [
+    4,
+    7,
+    8
+   ],
+   "walk": [
+    8,
+    11,
+    9
+   ],
+   "slash": [
+    12,
+    15,
+    6
+   ],
+   "shoot": [
+    16,
+    19,
+    13
+   ],
+   "hurt": [
+    20,
+    20,
+    6
+   ]
+  },
+  "direction_order": [
+   "up",
+   "left",
+   "down",
+   "right"
+  ],
+  "team_colour_layer": "legs/pants/muscular/blue",
+  "layers": [
+   {
+    "src": "spritesheets/weapon/blunt/mace/universal_behind/mace.png",
+    "zPos": 9
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/attack_slash/behind/mace.png",
+    "zPos": 9,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/body/bodies/muscular/brown.png",
+    "zPos": 10
+   },
+   {
+    "src": "spritesheets/legs/pants/muscular/blue.png",
+    "zPos": 20
+   },
+   {
+    "src": "spritesheets/feet/boots/male/walnut.png",
+    "zPos": 25
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/brown.png",
+    "zPos": 100,
+    "head_offset_x": [
+     -5,
+     3,
+     -5,
+     -3
+    ]
+   },
+   {
+    "src": "spritesheets/head/heads/orc/male/brown.png",
+    "zPos": 101,
+    "head_offset_x": [
+     5,
+     -3,
+     5,
+     3
+    ]
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/mace.png",
+    "zPos": 140
+   },
+   {
+    "src": "spritesheets/weapon/blunt/mace/attack_slash/mace.png",
+    "zPos": 150,
+    "custom_animation": "slash_oversize"
+   },
+   {
+    "src": "spritesheets/shoulders/plate/male/gold.png",
+    "zPos": 65
+   },
+   {
+    "src": "spritesheets/arms/bracers/male/gold.png",
+    "zPos": 70
+   },
+   {
+    "src": "spritesheets/cape/tattered_behind/red.png",
+    "zPos": 5
+   },
+   {
+    "src": "spritesheets/cape/tattered/female/red.png",
+    "zPos": 85
+   }
+  ],
+  "verified": true,
+  "postprocess": "the orc head layer drawn twice, shifted apart per facing (two-headed ogre)"
+ }
+}

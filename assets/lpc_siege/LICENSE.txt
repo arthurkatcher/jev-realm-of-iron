@@ -1,0 +1,5 @@
+"[LPC] Siege Weapons" by bluecarrot16, with Herodom
+https://opengameart.org/content/lpc-siege-weapons
+License: CC-BY 4.0 (also offered under CC-BY 3.0, OGA-BY 3.0, GPL 3.0, GPL 2.0). Used here under CC-BY 4.0.
+Attribution: "[LPC] Siege Weapons" by bluecarrot16. Link back: https://opengameart.org/content/lpc-siege-weapons
+Files vendored: ballista.png, catapult_1.png (catapult.png on the page), wheels-bg.png, wheels-fg.png.

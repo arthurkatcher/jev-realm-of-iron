@@ -1,0 +1,95 @@
+Wyrmsun (https://github.com/Andrettin/Wyrmsun, commit f0330d2a, graphics_credits.txt) -> local name
+h_hall.png             <- teuton/buildings/town_hall.png                     by Jinn / CC0
+h_hall_shadow.png      <- teuton/buildings/town_hall_shadow.png              by Jinn / CC0
+h_keep.png             <- teuton/buildings/stronghold.png                    by Jinn / CC0
+h_keep_shadow.png      <- teuton/buildings/stronghold_shadow.png             by Jinn / CC0
+h_castle.png           <- teuton/buildings/castle.png                        by Jinn / CC0
+h_castle_shadow.png    <- teuton/buildings/castle_shadow.png                 by Jinn / CC0
+h_farm.png             <- teuton/buildings/farm.png                          by Jinn / CC0
+h_farm_shadow.png      <- teuton/buildings/farm_shadow.png                   by Jinn / CC0
+h_scout.png            <- teuton/buildings/watch_tower.png                   by Jinn / CC0
+h_scout_shadow.png     <- teuton/buildings/watch_tower_shadow.png            by Jinn / CC0
+h_tower.png            <- teuton/buildings/guard_tower.png                   by Jinn / CC0
+h_tower_shadow.png     <- teuton/buildings/guard_tower_shadow.png            by Jinn / CC0
+h_cannon.png           <- teuton/buildings/catapult_tower.png                by Jinn / CC0
+h_cannon_shadow.png    <- teuton/buildings/catapult_tower_shadow.png         by Jinn / CC0
+h_mill.png             <- english/buildings/lumber_mill.png                  by Jinn / CC0
+h_mill_shadow.png      <- english/buildings/lumber_mill_shadow.png           by Jinn / CC0
+h_temple.png           <- teuton/buildings/church.png                        by Jinn / CC0
+h_temple_shadow.png    <- teuton/buildings/church_shadow.png                 by Jinn / CC0
+o_hall.png             <- goblin/buildings/town_hall.png                     by Exidelo / CC0
+o_hall_shadow.png      <- goblin/buildings/town_hall_shadow.png              by Jinn / CC0
+o_keep.png             <- goblin/buildings/stronghold.png                    modified from Exidelo's Goblin Town Hall / CC0
+o_keep_shadow.png      <- goblin/buildings/stronghold_shadow.png             by Jinn / CC0
+o_castle.png           <- goblin/buildings/fortress.png                      by Jinn / CC0
+o_castle_shadow.png    <- goblin/buildings/fortress_shadow.png               by Jinn / CC0
+o_farm.png             <- goblin/buildings/farm.png                          by Exidelo / CC0
+o_farm_shadow.png      <- goblin/buildings/farm_shadow.png                   by Jinn / CC0
+o_barracks.png         <- goblin/buildings/mess_hall.png                     by Exidelo / CC0
+o_barracks_shadow.png  <- goblin/buildings/mess_hall_shadow.png              by Jinn / CC0
+o_scout.png            <- goblin/buildings/watch_tower.png                   by Jinn / CC0
+o_scout_shadow.png     <- goblin/buildings/watch_tower_shadow.png            by Jinn / CC0
+o_tower.png            <- goblin/buildings/guard_tower.png                   by Jinn / CC0
+o_tower_shadow.png     <- goblin/buildings/guard_tower_shadow.png            by Jinn / CC0
+o_cannon.png           <- goblin/buildings/cannon_tower.png                  by Jinn / CC0
+o_cannon_shadow.png    <- goblin/buildings/cannon_tower_shadow.png           by Jinn / CC0
+o_smith.png            <- goblin/buildings/smithy.png                        by Jinn / CC0
+o_smith_shadow.png     <- goblin/buildings/smithy_shadow.png                 by Jinn / CC0
+o_mill.png             <- goblin/buildings/lumber_mill.png                   by Exidelo / CC0
+o_mill_shadow.png      <- goblin/buildings/lumber_mill_shadow.png            by Jinn / CC0
+o_aviary.png           <- goblin/buildings/academy.png                       by Jinn / CC0
+o_aviary_shadow.png    <- goblin/buildings/academy_shadow.png                by Jinn / CC0
+o_temple.png           <- goblin/buildings/temple.png                        by Jinn / CC0
+o_temple_shadow.png    <- goblin/buildings/temple_shadow.png                 by Jinn / CC0
+ruin.png               <- neutral/buildings/destroyed_site.png               by Jinn / CC0
+rock.png               <- terrain/rock.png                                   by Jinn / CC0
+h_barracks.png         <- buildings/teutonic/barracks.png                    by Jinn / CC0
+h_smith.png            <- buildings/teutonic/smithy.png                      by Jinn / CC0
+h_dock.png             <- buildings/teutonic/dock.png                        by Jinn / CC0 [listed under teuton/buildings/dock]
+o_dock.png             <- buildings/goblin/dock.png                          by Jinn / CC0 [listed under goblin/buildings/dock]
+h_aviary.png           <- buildings/neutral/gryphon_nest.png                 by Exidelo / CC0
+mine.png               <- buildings/neutral/gold_mine.png                    by Jinn / CC0
+mine_shadow.png        <- buildings/neutral/gold_mine_shadow.png             by Jinn / CC0
+site2.png              <- buildings/sites/minor_building_site.png            by Jinn / CC0
+constr2.png            <- buildings/sites/minor_building_construction_site.png by Jinn / CC0
+site3.png              <- buildings/sites/building_site.png                  by Jinn / CC0
+constr3.png            <- buildings/sites/building_construction_site.png     by Jinn / CC0
+grass.png              <- terrain/grass.png                                  by Exidelo and Jinn / CC0
+water.png              <- terrain/shallow_water.png                          by Jinn / CC0
+water_shore.png        <- terrain/shallow_water_shore.png                    by Jinn / CC0 (listed with shallow_water.png)
+trees.png              <- terrain/pine_tree.png                              by b_o / GPL 2.0 or CC-BY-SA 3.0 (used under CC-BY-SA 3.0)
+grass2.png             <- terrain/semi_dry_grass.png                         by Exidelo and Jinn / CC0
+
+Added 2026-09-26 (same commit f0330d2a; licence lines from graphics/credits.txt). "src/" keeps the unmodified sheet
+where the game file is cut, scaled or recoloured from it.
+h_stables.png          <- teuton/buildings/stables.png                       by Jinn / CC0
+h_stables_shadow.png   <- teuton/buildings/stables_shadow.png                by Jinn / CC0
+o_stables.png          <- buildings/troll/barracks.png (Ogre Mound)          by Exidelo / CC0
+h_inventor.png         <- gnome/buildings/town_hall.png, 128 -> 96 px        by Jinn / CC0          (src/h_inventor.png)
+h_inventor_shadow.png  <- gnome/buildings/town_hall_shadow.png, 128 -> 96 px by Jinn / CC0          (src/h_inventor_shadow.png)
+o_inventor.png         <- goblin/buildings/market.png (Goblin Alchemist)     by Jinn / CC0
+o_inventor_shadow.png  <- goblin/buildings/market_shadow.png                 by Jinn / CC0
+h_magetower.png        <- dwarf/buildings/academy.png                        by Jinn / CC0
+h_magetower_shadow.png <- dwarf/buildings/academy_shadow.png                 by Jinn / CC0
+                          (Temple of the Damned reuses o_aviary.png = goblin/buildings/academy.png)
+h_foundry.png          <- dwarf/buildings/smithy.png                         by Exidelo / CC0
+h_foundry_shadow.png   <- dwarf/buildings/smithy_shadow.png                  by Exidelo and Jinn / CC0
+o_foundry.png          <- buildings/troll/smithy.png (Metalworks)            by Exidelo / CC0
+o_roost.png            <- buildings/goblin/spider_pit.png, first variant     by Exidelo / CC0       (src/o_roost.png)
+ship_destroyer.png     <- teuton/units/kogge.png, north frame                by Jinn / CC0          (src/ship_destroyer.png)
+ship_troll_destroyer.png <- goblin/units/warship.png, north frame, scaled    by Jinn / CC0          (src/ship_troll_destroyer.png)
+ship_battleship.png    <- dwarf/units/ballista_warship.png, north frame      by Jinn / CC0          (src/ship_battleship.png)
+ship_juggernaught.png  <- units/aether_warship.png, north frame, scaled      by Kwaliti and Jinn / CC0 (src/units_aether_warship.png)
+ship_tanker.png        <- units/teutonic/workship.png, north frame, red sail -> purple  by Jinn / CC0 (src/ship_tanker.png)
+ship_transport.png     <- dwarf/units/transport.png (credits: transport_ship.png) by Jinn / CC0     (src/ship_transport.png)
+ship_orc_transport.png <- goblin/units/transport.png (credits: transport_ship.png) by Jinn / CC0    (src/ship_orc_transport.png)
+fly_zeppelin.png       <- units/aether_transport.png, east frame, scaled     by Kwaliti and Jinn / CC0 (src/zeppelin.png)
+fly_machine.png        <- units/aether_workship.png, east frame, scaled      by Kwaliti and Jinn / CC0 (src/units_aether_workship.png)
+fx_explosion.png       <- missiles/explosion.png, 4 frames at 32 px          by StumpyStrust and Jinn / CC0 (src/fx_explosion.png)
+fx_siege_impact.png    <- missiles/siege_projectile_impact.png, 4 frames     by Cuzco and Jinn / CC0 (src/fx_siege_impact.png)
+fx_lightning_impact.png <- missiles/lightning_impact.png, 32 px              by Jinn / CC0          (src/fx_lightning_impact.png)
+fx_big_fire.png        <- missiles/big_fire.png                              by Mikodrak and Jinn / CC0
+fx_small_fire.png      <- missiles/small_fire.png                            by Mikodrak and Jinn / CC0
+fx_cannon.png, fx_bigcannon.png <- missiles/cannon_ball.png                  by Jinn / CC0          (src/fx_cannon_ball.png)
+fx_boulder.png         <- missiles/catapult_sandstone_rock.png               by Vladislav "iDreamRunner" / CC0 (src/fx_rock.png)
+fx_rune.png            <- neutral/buildings/glyph.png, one glyph tinted orange by Jinn / CC0        (src/fx_glyph.png)

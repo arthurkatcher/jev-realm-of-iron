@@ -1,0 +1,10 @@
+# LLM harness output (logs, traces, replays of each run)
+harness/runs/
+__pycache__/
+*.pyc
+# the local mirror of the Warcraft Wiki (fetch with docs/wiki/fetch_pages.mjs)
+docs/wiki/pages/
+# art that was considered and not used
+assets/_candidates/
+.DS_Store
+node_modules/

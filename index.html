@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Realm of Iron</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top">
+  <span class="res"><canvas id="ic-gold" width="20" height="20"></canvas><b id="gold">0</b></span>
+  <span class="res"><canvas id="ic-lumber" width="20" height="20"></canvas><b id="lumber">0</b></span>
+  <span class="res"><canvas id="ic-oil" width="20" height="20"></canvas><b id="oil">0</b></span>
+  <span class="res"><canvas id="ic-food" width="20" height="20"></canvas><b id="food">0/0</b></span>
+  <span id="title">Realm of Iron</span>
+  <label id="speedbox">Speed <select id="speed"></select></label>
+  <button id="music-btn" title="Music on (click to turn off)">♪ on</button>
+  <button id="menu-btn" title="Menu (F10)">Menu</button>
+  <span id="clock">0:00</span>
+</div>
+<div id="panel">
+  <div class="frame"><canvas id="minimap" width="192" height="192"></canvas></div>
+  <div id="selected">
+    <canvas id="portrait" width="64" height="64"></canvas>
+    <div id="info"></div>
+  </div>
+  <div id="buttons"></div>
+  <div id="notices" aria-live="polite"></div>
+
+</div>
+<canvas id="view"></canvas>
+<div id="chat" hidden>
+  <div class="chat-head">Decisions <small>Astra plans · Jev choices</small><button id="chat-follow" class="on" title="Keep the newest message in view (scrolling up pauses it)">Following</button></div>
+  <div id="chat-log"></div>
+</div>
+<div id="replay-bar" hidden>
+  <button id="rp-play" title="Play / pause (Pause key)">❚❚</button>
+  <span class="speeds"><button data-speed="1">1×</button><button data-speed="2">2×</button><button data-speed="4">4×</button><button data-speed="8">8×</button><button data-speed="16">16×</button></span>
+  <input id="rp-seek" type="range" min="0" max="1" step="20" value="0" title="Drag to jump">
+  <span id="rp-time">0:00</span>
+  <button id="rp-vis" title="Fog of war on (the player's view) or off (the whole map). Hotkey F">Fog: on</button>
+  <button id="rp-chat" title="Show or hide the decision chat">Chat</button>
+  <button id="rp-exit" title="Leave the replay">Exit</button>
+</div>
+<div id="pause-banner" hidden>Paused</div>
+<input id="cheat" type="text" maxlength="40" placeholder="Message (Enter to send, Esc to cancel)" hidden autocomplete="off">
+<div id="overlay" class="modal" hidden>
+  <div class="box"><h1 id="result"></h1><p id="result-sub"></p><table id="result-table" class="tally"></table><p id="result-score" class="score"></p>
+    <div class="row center"><button id="restart">Play again</button><button id="r-title">Title screen</button></div></div>
+</div>
+<div id="menu" class="modal" hidden>
+  <div class="box"><h1>Realm of Iron</h1><p>Game paused</p>
+    <div class="col"><button id="m-resume">Resume</button>
+      <div class="row"><input id="save-name" type="text" maxlength="24" placeholder="Save name"><button id="m-save">Save game</button></div>
+      <button id="m-load">Load game</button><div id="save-list" class="col slots"></div>
+      <button id="m-new">New game</button><button id="m-exit">Exit to title</button></div>
+    <p class="hint">Saves are kept in this browser. Load game restores the latest save; pick a name below to load another.</p></div>
+</div>
+<div id="titlescreen" class="modal" hidden>
+  <div class="box"><h1>Realm of Iron</h1><p>Two races, one iron throne.</p>
+    <div class="opts">
+      <label>Your race <select id="race"><option value="human">Human</option><option value="orc">Orc</option></select></label>
+      <label>Map size <select id="o-size"><option value="32">32 × 32</option><option value="64" selected>64 × 64</option><option value="96">96 × 96</option><option value="128">128 × 128</option></select></label>
+      <label>Terrain <select id="o-map"><option value="strait">Strait (land bridge)</option><option value="bays">Coastal bays</option></select></label>
+      <label>Resources <select id="o-res"><option value="low">Low</option><option value="medium" selected>Medium</option><option value="high">High</option></select></label>
+      <label>Units <select id="o-units"><option value="1">One worker only</option><option value="5">Five workers</option></select></label>
+      <label>Opponent <select id="o-ai"><option value="on">Computer</option><option value="off">None (sandbox)</option></select></label>
+      <label>Fog of war <select id="o-fog"><option value="on">On</option><option value="off">Revealed map</option></select></label>
+      <label>Walls <select id="o-walls"><option value="on">Buildable</option><option value="off">Off (as vs. computer in WC2)</option></select></label>
+      <label>Map seed <input id="o-seed" type="number" min="0" max="999999" placeholder="random"></label>
+    </div>
+    <div class="col"><button id="t-new">Start game</button><button id="t-load">Load game</button><button id="t-replay">Watch replay</button><input id="replay-file" type="file" accept=".json,application/json" hidden></div>
+    <div id="replay-list" hidden></div>
+    <p class="hint">Warcraft II skirmish rules: one Town Hall and one worker, destroy every enemy unit and building.</p></div>
+</div>
+<script src="data.js"></script>
+<script src="art.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
